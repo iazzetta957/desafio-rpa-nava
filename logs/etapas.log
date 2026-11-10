@@ -1,0 +1,57 @@
+2026-11-06 14:11:33 | INFO    | Iniciando execucao
+2026-11-06 14:11:33 | INFO    | Planilha: /Users/Iazzetta/Downloads/bootstrap_projeto/nava_rpa/data/entrada.xlsx
+2026-11-06 14:11:33 | INFO    | URL: https://forms.cloud.microsoft/pages/responsepage.aspx?id=xrHFPHa8ekeBm7YJAl1cI-zUtyox44dIhrWC2I-uU6dUNkxETUgyRE80UEU1WlMzNjNVM0ExNDg2Sy4u&route=shorturl
+2026-11-06 14:11:33 | INFO    | Submit: SIM
+2026-11-06 14:11:33 | INFO    | 1 registro(s)
+2026-11-06 14:11:36 | INFO    | Processando linha 2
+2026-11-06 14:11:38 | INFO    | Campo 'Nome Completo' preenchido (tentativa 1).
+2026-11-06 14:11:38 | INFO    | Campo 'Nome Social' preenchido (tentativa 1).
+2026-11-06 14:11:38 | INFO    | Campo 'PCD' preenchido (tentativa 1).
+2026-11-06 14:11:38 | INFO    | Data 'Data de Nascimento' preenchida com '10/7/1999'.
+2026-11-06 14:11:38 | INFO    | Campo 'CPF' preenchido (tentativa 1).
+2026-11-06 14:11:38 | INFO    | Campo 'RG' preenchido (tentativa 1).
+2026-11-06 14:11:39 | INFO    | Campo 'Cidade do RG' preenchido (tentativa 1).
+2026-11-06 14:11:39 | INFO    | Campo 'Nome completo da mae' preenchido (tentativa 1).
+2026-11-06 14:11:39 | INFO    | Campo 'Nome completo do pai' preenchido (tentativa 1).
+2026-11-06 14:11:39 | INFO    | Campo 'Nacionalidade' preenchido (tentativa 1).
+2026-11-06 14:11:39 | INFO    | Campo 'Naturalidade' preenchido (tentativa 1).
+2026-11-06 14:11:39 | INFO    | Campo 'Endereco residencial completo' preenchido (tentativa 1).
+2026-11-06 14:11:39 | INFO    | Campo 'CEP Residencial' preenchido (tentativa 1).
+2026-11-06 14:11:39 | INFO    | Campo 'Telefone - Celular' preenchido (tentativa 1).
+2026-11-06 14:11:39 | INFO    | Campo 'Telefone - Residencial' preenchido (tentativa 1).
+2026-11-06 14:11:39 | INFO    | Campo 'E-mail pessoal' preenchido (tentativa 1).
+2026-11-06 14:11:39 | INFO    | Campo 'Cidade de preferencia para exame medico' preenchido (tentativa 1).
+2026-11-06 14:11:40 | INFO    | Campo 'Ja trabalhou na Nava' preenchido (tentativa 1).
+2026-11-06 14:11:40 | INFO    | Campo 'Projeto cliente relacionado' preenchido (tentativa 1).
+2026-11-06 14:11:40 | INFO    | Campo 'Afastamento previsto' preenchido (tentativa 1).
+2026-11-06 14:11:40 | INFO    | Campo 'Referencia 1' preenchido (tentativa 1).
+2026-11-06 14:11:40 | INFO    | Campo 'Referencia 2' preenchido (tentativa 1).
+2026-11-06 14:11:40 | INFO    | Campo opcional 'Referencia 3' vazio, pulando.
+2026-11-06 14:11:40 | INFO    | Radio 'Veracidade' marcado (valor 'Sim', tentativa 1).
+2026-11-06 14:11:40 | INFO    |   [OK] Nome Completo - Preenchido com sucesso.
+2026-11-06 14:11:40 | INFO    |   [OK] Nome Social - Preenchido com sucesso.
+2026-11-06 14:11:40 | INFO    |   [OK] PCD - Preenchido com sucesso.
+2026-11-06 14:11:40 | INFO    |   [OK] Data de Nascimento - Data preenchida com sucesso.
+2026-11-06 14:11:40 | INFO    |   [OK] CPF - Preenchido com sucesso.
+2026-11-06 14:11:40 | INFO    |   [OK] RG - Preenchido com sucesso.
+2026-11-06 14:11:40 | INFO    |   [OK] Cidade do RG - Preenchido com sucesso.
+2026-11-06 14:11:40 | INFO    |   [OK] Nome completo da mae - Preenchido com sucesso.
+2026-11-06 14:11:40 | INFO    |   [OK] Nome completo do pai - Preenchido com sucesso.
+2026-11-06 14:11:40 | INFO    |   [OK] Nacionalidade - Preenchido com sucesso.
+2026-11-06 14:11:40 | INFO    |   [OK] Naturalidade - Preenchido com sucesso.
+2026-11-06 14:11:40 | INFO    |   [OK] Endereco residencial completo - Preenchido com sucesso.
+2026-11-06 14:11:40 | INFO    |   [OK] CEP Residencial - Preenchido com sucesso.
+2026-11-06 14:11:40 | INFO    |   [OK] Telefone - Celular - Preenchido com sucesso.
+2026-11-06 14:11:40 | INFO    |   [OK] Telefone - Residencial - Preenchido com sucesso.
+2026-11-06 14:11:40 | INFO    |   [OK] E-mail pessoal - Preenchido com sucesso.
+2026-11-06 14:11:40 | INFO    |   [OK] Cidade de preferencia para exame medico - Preenchido com sucesso.
+2026-11-06 14:11:40 | INFO    |   [OK] Ja trabalhou na Nava - Preenchido com sucesso.
+2026-11-06 14:11:40 | INFO    |   [OK] Projeto cliente relacionado - Preenchido com sucesso.
+2026-11-06 14:11:40 | INFO    |   [OK] Afastamento previsto - Preenchido com sucesso.
+2026-11-06 14:11:40 | INFO    |   [OK] Referencia 1 - Preenchido com sucesso.
+2026-11-06 14:11:40 | INFO    |   [OK] Referencia 2 - Preenchido com sucesso.
+2026-11-06 14:11:40 | INFO    |   [OK] Referencia 3 - Campo opcional nao preenchido no Excel
+2026-11-06 14:11:40 | INFO    |   [OK] Veracidade - Radio marcado com sucesso.
+2026-11-06 14:11:40 | INFO    | Botao 'Enviar' clicado.
+2026-11-06 14:11:43 | INFO    | Submetido. Print: linha2_confirmacao_20261106_141140.png
+2026-11-06 14:11:45 | INFO    | Execucao finalizada

@@ -1,8 +1,6 @@
 __pycache__/
 *.pyc
 .venv/
+.DS_Store
 data/*.xlsx
 !data/.gitkeep
-evidencias/*.png
-logs/*.log
-resultados/*.csv
