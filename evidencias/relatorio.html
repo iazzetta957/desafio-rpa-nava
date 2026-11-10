@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Relatorio RPA - Score</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: #f4f5f7;
+    color: #1a1a1a;
+    margin: 0;
+    padding: 32px;
+  }
+  .wrap {
+    max-width: 960px; margin: 0 auto; background: #fff;
+    border-radius: 12px; padding: 32px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.08);
+  }
+  h1 { margin: 0 0 4px; font-size: 22px; }
+  h2 { font-size: 15px; margin: 28px 0 8px; }
+  .sub { color: #666; margin: 0; font-size: 13px; }
+  .score-row { display: flex; align-items: baseline; gap: 16px; margin: 24px 0 4px; }
+  .score-big { font-size: 72px; font-weight: 700; color: #1f6feb; line-height: 1; }
+  .score-label { color: #666; font-size: 14px; }
+  .kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 24px 0; }
+  .kpi { background: #f8f9fa; border-radius: 8px; padding: 14px 16px; }
+  .kpi .l { color: #666; font-size: 11px; text-transform: uppercase; letter-spacing: .5px; margin-bottom: 4px; }
+  .kpi .v { font-size: 22px; font-weight: 600; }
+  .ok { color: #1a7f37; }
+  .nok { color: #cf222e; }
+  table { width: 100%; border-collapse: collapse; margin-bottom: 8px; }
+  th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid #eee; font-size: 13px; }
+  th { background: #fafafa; font-weight: 600; color: #333; }
+  td.ok, td.nok { font-weight: 600; width: 80px; }
+  .footer { margin-top: 32px; padding-top: 16px; border-top: 1px solid #eee; color: #999; font-size: 11px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Relatorio de Execucao &mdash; RPA Nava</h1>
+    <p class="sub">Gerado em 2026-11-06 14:11:43</p>
+
+    <div class="score-row">
+      <div class="score-big">100</div>
+      <div class="score-label">de 100 &mdash; score geral de preenchimento</div>
+    </div>
+    <p class="sub">Score = campos OK / campos totais preenchidos</p>
+
+    <div class="kpis">
+      <div class="kpi"><div class="l">Campos OK</div><div class="v ok">24</div></div>
+      <div class="kpi"><div class="l">Campos NOK</div><div class="v nok">0</div></div>
+      <div class="kpi"><div class="l">Campos total</div><div class="v">24</div></div>
+      <div class="kpi"><div class="l">Linhas completas</div><div class="v">1/1</div></div>
+    </div>
+
+    <h2>Linha 2 do Excel</h2><table><thead><tr><th>Campo</th><th>Status</th><th>Observacao</th></tr></thead><tbody><tr><td>Nome Completo</td><td class='ok'>OK</td><td>Preenchido com sucesso.</td></tr><tr><td>Nome Social</td><td class='ok'>OK</td><td>Preenchido com sucesso.</td></tr><tr><td>PCD</td><td class='ok'>OK</td><td>Preenchido com sucesso.</td></tr><tr><td>Data de Nascimento</td><td class='ok'>OK</td><td>Data preenchida com sucesso.</td></tr><tr><td>CPF</td><td class='ok'>OK</td><td>Preenchido com sucesso.</td></tr><tr><td>RG</td><td class='ok'>OK</td><td>Preenchido com sucesso.</td></tr><tr><td>Cidade do RG</td><td class='ok'>OK</td><td>Preenchido com sucesso.</td></tr><tr><td>Nome completo da mae</td><td class='ok'>OK</td><td>Preenchido com sucesso.</td></tr><tr><td>Nome completo do pai</td><td class='ok'>OK</td><td>Preenchido com sucesso.</td></tr><tr><td>Nacionalidade</td><td class='ok'>OK</td><td>Preenchido com sucesso.</td></tr><tr><td>Naturalidade</td><td class='ok'>OK</td><td>Preenchido com sucesso.</td></tr><tr><td>Endereco residencial completo</td><td class='ok'>OK</td><td>Preenchido com sucesso.</td></tr><tr><td>CEP Residencial</td><td class='ok'>OK</td><td>Preenchido com sucesso.</td></tr><tr><td>Telefone - Celular</td><td class='ok'>OK</td><td>Preenchido com sucesso.</td></tr><tr><td>Telefone - Residencial</td><td class='ok'>OK</td><td>Preenchido com sucesso.</td></tr><tr><td>E-mail pessoal</td><td class='ok'>OK</td><td>Preenchido com sucesso.</td></tr><tr><td>Cidade de preferencia para exame medico</td><td class='ok'>OK</td><td>Preenchido com sucesso.</td></tr><tr><td>Ja trabalhou na Nava</td><td class='ok'>OK</td><td>Preenchido com sucesso.</td></tr><tr><td>Projeto cliente relacionado</td><td class='ok'>OK</td><td>Preenchido com sucesso.</td></tr><tr><td>Afastamento previsto</td><td class='ok'>OK</td><td>Preenchido com sucesso.</td></tr><tr><td>Referencia 1</td><td class='ok'>OK</td><td>Preenchido com sucesso.</td></tr><tr><td>Referencia 2</td><td class='ok'>OK</td><td>Preenchido com sucesso.</td></tr><tr><td>Referencia 3</td><td class='ok'>OK</td><td>Campo opcional nao preenchido no Excel</td></tr><tr><td>Veracidade</td><td class='ok'>OK</td><td>Radio marcado com sucesso.</td></tr></tbody></table>
+
+    <div class="footer">RPA Nava &mdash; execucao automatica</div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,132 @@
+url: https://forms.cloud.microsoft/pages/responsepage.aspx?id=xrHFPHa8ekeBm7YJAl1cI-zUtyox44dIhrWC2I-uU6dUNkxETUgyRE80UEU1WlMzNjNVM0ExNDg2Sy4u&route=shorturl
+arquivo_excel: data/entrada.xlsx
+campos:
+- coluna: Nome Completo
+  seletor: input[aria-labelledby*='QuestionId_r8d334d8d76a441b58e9c973115dbc37e']
+  label: Nome Completo
+  tipo: text
+  obrigatorio: true
+- coluna: Nome Social
+  seletor: textarea[aria-labelledby*='QuestionId_re622593270cf42fa88923a150785bf7a']
+  label: Nome Social
+  tipo: textarea
+  obrigatorio: false
+- coluna: PCD
+  seletor: input[aria-labelledby*='QuestionId_r88fc838a095243c59937c8cec386a519']
+  label: PCD
+  tipo: text
+  obrigatorio: true
+- coluna: Data de Nascimento
+  seletor: input[aria-labelledby*='QuestionId_r641feace7d1541a6a2abe8a0b37d97bb']
+  label: Data de Nascimento
+  tipo: date
+  obrigatorio: true
+- coluna: CPF
+  seletor: input[aria-labelledby*='QuestionId_r73ba60e4b48b4755b0c3e5beff55b392']
+  label: CPF
+  tipo: text
+  obrigatorio: true
+- coluna: RG
+  seletor: input[aria-labelledby*='QuestionId_rb2dacc6f4fa14da0a54e93e1c8661cc3']
+  label: RG
+  tipo: text
+  obrigatorio: true
+- coluna: Cidade do RG
+  seletor: input[aria-labelledby*='QuestionId_ra31f1f49a6e84133ba4c1e196837adbd']
+  label: Cidade do RG
+  tipo: text
+  obrigatorio: true
+- coluna: Nome completo da mae
+  seletor: input[aria-labelledby*='QuestionId_r51af56293b88449f98df6e01e70cdff9']
+  label: Nome completo da mae
+  tipo: text
+  obrigatorio: true
+- coluna: Nome completo do pai
+  seletor: input[aria-labelledby*='QuestionId_rbde55381d8b049be867526dce8d117ff']
+  label: Nome completo do pai
+  tipo: text
+  obrigatorio: false
+- coluna: Nacionalidade
+  seletor: input[aria-labelledby*='QuestionId_r11200a38848045b981b787141bc5b299']
+  label: Nacionalidade
+  tipo: text
+  obrigatorio: true
+- coluna: Naturalidade
+  seletor: input[aria-labelledby*='QuestionId_r475efdedb7c7498593f488ba302134f6']
+  label: Naturalidade
+  tipo: text
+  obrigatorio: true
+- coluna: Endereco residencial completo
+  seletor: input[aria-labelledby*='QuestionId_rdffb03a8ee6049118b5e2d57ccef2fdb']
+  label: Endereco residencial completo
+  tipo: text
+  obrigatorio: true
+- coluna: CEP Residencial
+  seletor: input[aria-labelledby*='QuestionId_r8d4e1aed701e46bfbdd2d65db7c75ad3']
+  label: CEP Residencial
+  tipo: text
+  obrigatorio: true
+- coluna: Telefone - Celular
+  seletor: input[aria-labelledby*='QuestionId_r83278a3b896f4802ae16b8500894c759']
+  label: Telefone - Celular
+  tipo: text
+  obrigatorio: true
+- coluna: Telefone - Residencial
+  seletor: input[aria-labelledby*='QuestionId_ra3392dfea23444aba1db552cdc97cfeb']
+  label: Telefone - Residencial
+  tipo: text
+  obrigatorio: false
+- coluna: E-mail pessoal
+  seletor: input[aria-labelledby*='QuestionId_r098083f4c70e4e2e9ad499cd1ff39529']
+  label: E-mail pessoal
+  tipo: text
+  obrigatorio: true
+- coluna: Cidade de preferencia para exame medico
+  seletor: input[aria-labelledby*='QuestionId_r65dd66502a264907bb88f91f9d97a397']
+  label: Cidade de preferencia para exame medico
+  tipo: text
+  obrigatorio: true
+- coluna: Ja trabalhou na Nava
+  seletor: input[aria-labelledby*='QuestionId_r1fde156b557a4757b4f885e83dd35d21']
+  label: Ja trabalhou na Nava
+  tipo: text
+  obrigatorio: true
+- coluna: Projeto cliente relacionado
+  seletor: input[aria-labelledby*='QuestionId_r21240fc3c9ee4b0abd7019ab83c3ec5a']
+  label: Projeto cliente relacionado
+  tipo: text
+  obrigatorio: true
+- coluna: Afastamento previsto
+  seletor: input[aria-labelledby*='QuestionId_rab06f7c8d5b14fc587f5293b5980cdd3']
+  label: Afastamento previsto
+  tipo: text
+  obrigatorio: true
+- coluna: Referencia 1
+  seletor: input[aria-labelledby*='QuestionId_rd6067ff772ec4c7f9a0abbc8bd2917c9']
+  label: Referencia 1
+  tipo: text
+  obrigatorio: true
+- coluna: Referencia 2
+  seletor: textarea[aria-labelledby*='QuestionId_r04ef7c77712541f7a8be8b06d7864248']
+  label: Referencia 2
+  tipo: textarea
+  obrigatorio: true
+- coluna: Referencia 3
+  seletor: textarea[aria-labelledby*='QuestionId_r64bb319be59948d287c548f671c210c9']
+  label: Referencia 3
+  tipo: textarea
+  obrigatorio: false
+- coluna: Veracidade
+  seletor: input[type='radio'][name='rfeb3c5aac58943ac89134b91d5bc8d49']
+  label: Veracidade
+  tipo: radio
+  obrigatorio: true
+seletor_submit: button[data-automation-id='submitButton']
+timeout_campo_ms: 10000
+timeout_submit_ms: 15000
+timeout_pos_envio_ms: 30000
+delay_entre_linhas_segundos: 3
+limpar_resultados_no_inicio: true
+gerar_relatorio_score: true
+submeter_apenas_se_todos_ok: true
+submeter_formulario: true

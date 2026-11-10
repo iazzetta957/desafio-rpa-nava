@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+data/*.xlsx
+!data/.gitkeep
+evidencias/*.png
+logs/*.log
+resultados/*.csv
